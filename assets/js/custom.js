@@ -31,12 +31,8 @@ function setProgressBarObservers() {
 
         $('.currentPercentage').each(function(i,obj) { 
             
-            if (current_direction == 'up') {
-                $(this).css({
-                width: '0%',
-                });
-            }
-            else {
+            if (current_direction == 'down') {
+                
                 var custom_width = $(this).data('percent');
 
                 $(this).css({
