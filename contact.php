@@ -9,9 +9,6 @@
 $sendTo = 'ajacobson247@gmail.com';
 
 
-
-
-
 // message that will be displayed when everything is OK :)
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
 
@@ -71,4 +68,4 @@ else {
 
 	echo $encoded;
 }
-?>
+
